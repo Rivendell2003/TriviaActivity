@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    tools:context=".SecondActivity">
+
+
+    <ImageView
+        android:id="@+id/question_image"
+        android:layout_width="259dp"
+        android:layout_height="246dp"
+        android:layout_gravity="center"
+        android:contentDescription="@string/question_image_desc"
+        android:src="@drawable/png_transparent_computer_icons_whatsapp_whatsapp_text_trademark_logo_copia" />
+
+    <TextView
+        android:id="@+id/tv_question"
+        android:layout_width="265dp"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="@string/activity_second_question"
+        android:textStyle="bold" />
+
+
+    <RadioGroup
+        android:id="@+id/rg_answers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <RadioButton
+            android:id="@+id/rb_facebook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/activity_logo_facebook" />
+
+        <RadioButton
+            android:id="@+id/rb_twitter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="@string/activity_logo_twitter" />
+
+        <RadioButton
+            android:id="@+id/rb_whatsapp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/activity_logo_whatsapp" />
+
+        <RadioButton
+            android:id="@+id/rb_instagram"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/activity_logo_instagram" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/activity_second_button_send"
+        android:layout_gravity="center" />
+</LinearLayout>

@@ -1,0 +1,39 @@
+<resources>
+
+    <string name="app_name">Logo Trivia</string>
+    <string name="LogoTrivia">LogoTrivia</string>
+    <string name="question_one">¿A qué logo pertenece la imagen?</string>
+    <string name="yes">Sí</string>
+    <string name="no">No</string>
+    <string name="yes_message">¡Respuesta correcta!</string>
+    <string name="no_message">Inténtalo de nuevo.</string>
+    <string name="question_image_desc">ImgWhatss</string>
+
+    <string name="activity_second_question">¿A qué logo pertenece esta imagen?</string>
+    <string name="activity_second_button_yes">Sí</string>
+    <string name="activity_second_button_no">No</string>
+    <string name="activity_second_button_send">Enviar</string>
+
+    <string name="activity_main_prompt">Introduce tu nombre</string>
+    <string name="activity_main_button_start">Iniciar</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="activity_facebook">Pertenece a Facebook</string>
+    <string name="activity_twitter">Pertenece a Twitter</string>
+    <string name="activity_whatsapp">Pertenece a WhatsApp</string>
+    <string name="activity_instagram">Pertenece a Instagram</string>
+
+    <string name="activity_congrats_text_0">¡Felicidades!</string>
+    <string name="activity_congrats_text_1">¡Has acertado la respuesta!</string>
+    <string name="activity_congrats_text_2">¡Jugar otra vez!</string>
+    <string name="felicidades">Felicidades</string>
+
+    <string name="activity_logo_facebook">Facebook</string>
+    <string name="activity_logo_twitter">Twitter</string>
+    <string name="activity_logo_whatsapp">WhatsApp</string>
+    <string name="activity_logo_instagram">Instagram</string>
+
+
+    <string name="activity_main_text_0">by Jonny V A.</string>
+</resources>

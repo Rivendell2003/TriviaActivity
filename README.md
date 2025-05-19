@@ -1,12 +1,35 @@
-TriviaActivity es una aplicación interactiva de trivia que permite a los usuarios poner a prueba sus conocimientos a través de preguntas divertidas. El usuario ingresa su nombre en la pantalla de inicio y, al hacer clic en "¡Jugar!", accede a una serie de preguntas con opciones de respuesta.
+🧠 TriviaActivity – Aplicación de Trivia Interactiva en Android
+TriviaActivity es una aplicación móvil desarrollada en Kotlin para Android que ofrece una experiencia de trivia interactiva y educativa. Diseñada para ser intuitiva y atractiva, la aplicación permite a los usuarios poner a prueba sus conocimientos a través de una serie de preguntas de opción múltiple.
 
-En la pantalla de trivia (SecondActivity), el usuario selecciona una opción y, al enviar la respuesta, se le informa si ha acertado o no. Si responde correctamente, la aplicación muestra una pantalla de felicitaciones (CongratsActivity) con un mensaje de éxito, animaciones y un fondo atractivo. Si la respuesta es incorrecta, se le anima a intentar nuevamente.
+🎯 Objetivo del Proyecto
+El objetivo principal de TriviaActivity es proporcionar una plataforma sencilla y entretenida para que los usuarios participen en juegos de trivia. La aplicación está estructurada para facilitar la comprensión y el aprendizaje, siendo ideal tanto para desarrolladores principiantes que deseen estudiar la implementación de actividades y navegación en Android, como para usuarios que buscan una forma divertida de desafiar sus conocimientos.
 
-La interfaz está diseñada con Material Design, utilizando componentes modernos como ConstraintLayout y MaterialButton para un diseño limpio y accesible. Las transiciones y animaciones hacen que la experiencia sea más dinámica y agradable, mientras que los colores vibrantes y los elementos gráficos mejoran la usabilidad y atractivo visual.
+🧩 Estructura y Flujo de la Aplicación
+Pantalla de Inicio: El usuario ingresa su nombre y comienza el juego.
 
-La aplicación incluye retroalimentación instantánea para el usuario, con mensajes de éxito o error según la respuesta seleccionada, y la opción de comenzar un nuevo juego.
+Preguntas de Trivia: Se presentan preguntas con múltiples opciones de respuesta.
 
-TriviaActivity es ideal para aquellos que disfrutan de desafíos rápidos y educativos, proporcionando una experiencia entretenida de trivia con un diseño amigable y moderno. La app es una opción divertida y educativa para aprender de forma lúdica, haciendo uso de animaciones y un diseño interactivo.
+Retroalimentación Inmediata: Al seleccionar una respuesta y enviarla, la aplicación indica si la respuesta es correcta o incorrecta.
 
+Pantalla de Felicitaciones: Si el usuario responde correctamente, se muestra una pantalla de felicitaciones.
 
+Este flujo garantiza una experiencia de usuario fluida y mantiene al usuario comprometido durante el juego.
+
+📁 Estructura del Proyecto
+.idea/: Archivos de configuración del proyecto.
+
+app/: Contiene el código fuente de la aplicación.
+
+gradle/: Scripts de construcción del proyecto.
+
+build.gradle.kts: Script de construcción en Kotlin DSL.
+
+settings.gradle.kts: Configuración del proyecto.
+
+README.md: Descripción general del proyecto.
+
+👤 Autor
+JonnyJaVa
+
+Si utilizas este proyecto, por favor, atribuye adecuadamente al autor mencionando su nombre y proporcionando un enlace a este repositorio.
 
